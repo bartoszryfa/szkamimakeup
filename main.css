@@ -1,0 +1,645 @@
+body
+{
+background-color:#F5F5F5;
+margin:0px;
+font-family: 'Ibarra Real Nova', serif;
+}
+
+#container
+{
+    width:1366px;
+    margin-left:30px;
+    margin-right:30px;
+    
+}
+
+.logo
+{
+    text-align:center;
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+   
+}
+
+h4 /*natalia szkamruk*/
+{
+    text-align:center;
+    font-size:40px;
+    font-weight:400;
+    letter-spacing:5px;
+}
+p /*szkami.makeup*/
+{
+    text-align:center;
+    font-size: 15px;
+    
+}
+
+.icon-menu {
+  color: #000;
+  cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    left:50px;
+    top:18px;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    width:120px;
+    height:120px;
+    position: absolute;
+    left:-38px;
+    background-color:white;
+    border-radius:20px;
+}
+
+.dropdown-content li {
+  color: black;
+  text-align:center;
+  padding: 10px 16px;
+  text-decoration: none;
+
+}
+.show {display: block;}
+
+.icon-menu:hover
+{
+  color: #a0a0a0;
+  text-decoration: none;
+}
+
+li
+{
+    
+    list-style-type: none;
+}
+
+ #box
+{
+    width:1360px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:160px;
+}
+
+ .clear
+{
+    clear:both;
+}
+
+#photo1
+{
+    margin-left:40px;
+    width:300px;
+    height:470px;
+    padding:10px;
+    display:inline-block;
+}
+#photo2
+
+{
+    width:300px;
+    height:470px;
+    padding:10px;
+    display:inline-block;
+}
+
+#photo3
+{
+    width:300px;
+    height:470px;
+    padding:10px;
+    display:inline-block;
+}
+#photo4
+{
+    width:300px;
+    height:470px;
+    padding:10px;
+    display:inline-block;
+}
+
+.jpg
+{
+    width:300px;
+    display: block;
+    transition:0.5s;
+}
+
+.jpg:hover
+{
+    opacity:50%;
+    transform:scale(1.05);
+}
+.overlay
+{
+    position: relative;
+    width: 300px;
+    height: 470px;
+}
+
+.overlay p
+{
+    position: absolute;
+    display: block;
+    width: 190px;
+    left: 10%;
+    top:70%;
+    opacity: 0;
+    color:#fff;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.overlay:hover p
+{
+    cursor:pointer;
+    opacity: 0.8;
+    width:190px;
+    color:#fff;
+    transition: opacity 0.5s ease-in-out;
+}
+.overlay1
+{
+    position: relative;
+    width: 300px;
+    height: 470px;
+}
+
+.overlay1 p
+{
+    position: absolute;
+    display: block;
+    width: 190px;
+    left: 10%;
+    top:70%;
+    opacity: 0;
+    color:#000;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.overlay1:hover p
+{
+    cursor:pointer;
+    opacity: 0.8;
+    width:190px;
+    left: 10%;
+    top:70%;
+    color:#000;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+
+
+#photo
+{
+    margin-left:40px;
+}
+
+
+#dane
+{
+    margin-top: 200px;
+    margin-bottom:30px;
+    
+}
+
+h1
+{
+    font-size: 20px;
+    text-align:center;
+    
+
+}
+#contact
+{
+    font-size: 15px;
+    text-align:center;
+    margin-bottom:25px;
+}
+#facebook
+{
+    float:left;
+
+}
+
+#instagram
+{
+   
+   float:left;
+   
+}
+
+#youtube
+{
+    float:left;
+    
+}
+
+
+
+.icon-youtube:before { content: '\e800'; font-size: 28px;} /* '' */
+.icon-instagram:before { content: '\f16d'; font-size: 28px;} /* '' */
+.icon-facebook-rect:before { content: '\f301'; font-size: 28px;} /* '' */
+.icon-menu:before { content: '\f0c9'; font-size:28px;} /* '' */
+
+#social
+{
+    width:118px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:100px;
+    
+}
+
+#enter
+{
+    margin-top:10px;
+}
+#enter a:hover
+{
+    color:#a0a0a0;
+}
+a:link
+{
+    text-decoration:none;
+    color:black;
+    
+}
+
+a:visited
+{
+    text-decoration:none;
+    color:#000000;
+    
+}
+
+
+.icon-youtube:hover
+{
+    text-decoration: none;
+    color:red;
+}
+
+.icon-instagram:hover
+{
+    text-decoration: none;
+    color:#C13584
+   
+}
+
+.icon-facebook-rect:hover
+{
+    text-decoration: none;
+    color:#3b5998;
+
+}
+
+
+
+#pojemnik
+{
+    margin-top:200px;
+    width:1360px;
+    height:527px;
+}
+
+#omnie
+{
+    background-color:#DCDCDC;
+    margin-top:88.5px;
+    width: 800px;
+    height: 350px;
+    margin-left: 100px;
+    margin-right:90px;
+    float:left;
+
+}
+
+       
+#textomnie
+{
+    font-size:22px;
+    padding:20px;
+    text-align:justify;
+    margin-left:50px;
+    margin-right:50px;
+   
+    
+}
+
+#szkami
+{
+    width: 350px;
+    display:none;
+    
+}
+h3
+{
+    font-size: 30px;
+    text-align:center;
+    letter-spacing:10px;
+
+}
+#link1
+{
+    font-size: 15px;
+    margin-right: 10px;
+    color:#000000;
+}
+#link1:hover
+{
+    color:#a0a0a0;
+    
+}
+#link2
+{
+    font-size: 15px;
+    margin-right: 10px;
+    color:#000;
+}
+#link2:hover
+{
+    color:#a0a0a0;
+}
+#link3
+{
+    font-size: 15px;
+    margin-right: 10px;
+    color:#000000;
+}
+#link3:hover
+{
+    color:#a0a0a0;
+    
+}
+
+.icon-youtube1:before { content: '\e800'; font-size: 28px;} /* '' */
+.icon-instagram1:before { content: '\f16d'; font-size: 28px;} /* '' */
+.icon-facebook-rect1:before { content: '\f301'; font-size: 28px;} /* '' */
+
+#facebooktop
+{
+    float:left;
+
+}
+
+#instagramtop
+{
+   
+   float:left;
+   
+}
+
+#youtubetop
+{
+    float:left;
+    
+}
+
+.icon-youtube1:hover
+{
+    text-decoration: none;
+    color:red;
+}
+
+.icon-instagram1:hover
+{
+    text-decoration: none;
+    color:#C13584
+   
+}
+
+.icon-facebook-rect1:hover
+{
+    text-decoration: none;
+    color:#3b5998;
+}
+#social2
+{
+
+margin-left:1200px;
+margin-right:auto;
+margin-top:-100px;
+}
+
+#log
+{
+    
+    width:120px;
+    position:relative;
+    left:1200px;
+    bottom:20px;
+  
+}
+#log img
+{
+    position:relative;
+    opacity:50%;
+    width:120px;
+    
+   
+    
+}
+#linn
+{
+    height:30px;
+}
+#linn:hover
+{
+    opacity:30%;
+}
+
+
+/*---------------------------------------------media only screen-------------------------------------------------*/
+
+@media only screen and (max-width: 500px) {
+    body
+    {
+        width:500px;
+        margin:0px;
+    }
+#container
+{
+    width:500px;
+   margin-left:auto;
+   margin-right:auto;
+}
+ #box
+ {
+     margin-top:100px;
+     width:500px;
+ }
+ .dropdown {
+     position: relative;
+     left:30px;
+     top:-35px;
+     display: inline-block;
+ }
+ .dropdown-content {
+     width:120px;
+     height:120px;
+     position: absolute;
+     left:0px;
+     background-color:white;
+     border-radius:20px;
+ }
+ .dropdown-content li {
+   padding: 9px 10px;
+ }
+
+ .icon-menu:before { content: '\f0c9'; font-size:25px;} /* '' */
+ .icon-youtube1:before { content: '\e800'; font-size: 25px;} /* '' */
+ .icon-instagram1:before { content: '\f16d'; font-size: 25px;} /* '' */
+ .icon-facebook-rect1:before { content: '\f301'; font-size: 25px;} /* '' */
+
+ .logo
+ {
+    width:500px;
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    
+ }
+
+ h4 /*natalia szkamruk*/
+ {
+     text-align:center;
+     font-size:30px;
+     font-weight:400;
+     letter-spacing:5px;
+ }
+ p /*szkami.makeup*/
+ {
+     text-align:center;
+     font-size: 15px;
+     
+ }
+ #social2
+ {
+ margin-left:385px;
+ margin-right:0px;
+ margin-top:0px;
+ }
+ 
+ #facebooktop
+ {
+    margin-bottom:10px;
+    float:left;
+
+ }
+
+ #instagramtop
+ {
+          margin-bottom:10px;
+ }
+
+ #youtubetop
+ {
+    
+     
+ }
+ .jpg
+ {
+     width:220px;
+
+ }
+ #photo1
+ {
+     margin-left:10px;
+     margin-bottom:-120px;
+     padding:10px;
+     width:200px;
+     display:inline-block;
+ }
+ 
+ #photo2
+ {
+     margin-left:10px;
+     margin-bottom:-120px;
+     padding:10px;
+     width:200px;
+     display:inline-block;
+ }
+ 
+ #photo3
+ {
+     margin-left:10px;
+     margin-bottom:-120px;
+     padding:10px;
+     width:200px;
+     display:inline-block;
+ }
+ 
+ #photo4
+ {
+     margin-left:10px;
+     margin-bottom:-120px;
+     padding:10px;
+     width:200px;
+     display:inline-block;
+ }
+ .overlay, .overlay1
+ {
+     position: relative;
+     width: 220px;
+     height: 332px;
+     
+ }
+ .overlay p, .overlay1 p, .overlay2 p
+ {
+     font-size:13px;
+ }
+ 
+
+ 
+ #szkamm img
+ {
+     display:block;
+     position:relative;
+     top:170px;
+     left:100px;
+     opacity:20%;
+     width: 300px;
+     display: block;
+
+}
+ 
+ #dane
+ {
+     position:absolute;
+     width:300px;
+     margin-left:100px;
+     margin-right:100px;
+     margin-top:0px;
+     margin-bottom:30px;
+     
+ }
+ h1
+ {
+     font-size:15px;
+ }
+ #contact
+ {
+    
+     margin-bottom:15px;
+ }
+
+ #log
+ {
+     
+    
+     left:380px;
+     top:240px;
+   
+ }
+}
+
+
+

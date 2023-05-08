@@ -1,0 +1,136 @@
+<DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=500; user-scalable=0;" />
+        
+      <title>portfolio-omnie</title>
+      <meta name="description" content="makijaże okolicznościowe, makijaże ślubne, makijaże okazjonalne"</>
+      <meta name="keywords" content="akijaż, makjaz, makijaze, makeup, makijaże, makijaże okolicznościowe, makijaże ślubne, makijaże na sesje, makijaż do sesji"</>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"</>
+      <meta name="author" content="Bartosz Ryfa"</>
+      <link rel="stylesheet" href="style.css" type="text/css"/>
+      <link rel="stylesheet" href="css/fontello.css" type="text/css"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    
+</head>
+
+<body>
+    
+<div id="container">
+    
+    <header>
+        <div class="logo">
+            <h4>NATALIA SZKAMRUK <p>MAKE-UP ARTIST</p></h4>
+            <div id="social2">
+                <div id="facebooktop">
+                    <a href="https://www.facebook.com/Natalia-Szkamruk-Makeup-104410168042482"target="_blank">
+                        <i class="icon-facebook-rect1"></i>
+                    </a>
+                </div>
+               
+                <div id="instagramtop">
+                    <a href="https://www.instagram.com/szkami.makeup/"target="_blank">
+                        <i class="icon-instagram1"></i>
+                    </a>
+                </div>
+               
+                <div id="youtubetop">
+                    <a href="https://www.youtube.com/channel/UC2k7_nbC4WwOK11-qlWsCtw" target="_blank">
+                        <i class="icon-youtube1"></i>
+                    </a>
+                </div>
+                                                                <div class="clear"></div>
+            </div>
+            
+        </div>
+    </header>
+    
+    <nav>
+        
+        
+        <div class="dropdown">
+            <div class="icon-menu" onclick="myFunction()"></div>
+          <div id="myDropdown" class="dropdown-content">
+              <li><a id="link1" href="index.html">PORTFOLIO</a></li>
+          </div>
+        </div>
+    </nav>
+    
+    <main>
+        <div id="pojemnik">
+            <div id="omnie">
+            <h3> ABOUT ME:</h3>
+                <div id="textomnie">
+                    Nazywam się Natalia Szkamruk, od ponad trzech lat zajmuję się makijażem. Makeup to moja pasja oraz praca. Mam duże doświadczenie m.in z klientkami prywatnymi, jak i na planach zdjęciowych, reklamowych, oraz teledyskach. Jestem bardzo pracowitą osobą. Skończyłam wiele kursów makijażu aby poprawić swój skillset. Studiuję Charakteryzację na Wyższej Szkole Artystycznej w Warszawie. Uwielbiam stawiać się w nowych i trudnych sytuacjach bo wtedy wiem,  że się rozwijam i nie stoję w miejscu. Malowanie sprawia mi bardzo dużo radości. Dołożę wszelkich starań, aby każdy był zadowolony z mojej pracy. Moim zadaniem jest podkreślić naturalne piękno modelki oraz by makijaż wyglądał wyśmienicie przy efekcie końcowym :)
+                </div>
+            </div>
+        <div id="szkamm">
+        <img id="szkami"src="photos/szkami.jpg"</>
+        </div>
+        </div>
+    <main>
+        
+    <footer>
+         <div id="dane">
+             <h1>NATALIA SZKAMRUK MAKEUP</h1>
+             <div id="contact">
+                 Natalia Szkamruk
+                 <div id="enter"> mail:
+                     <a href="mailto:szkami.makeup@gmail.com">szkami.makeup@gmail.com</a>
+                 </div>
+             </div>
+             
+             <div id="social">
+                 <div id="facebook">
+                     <a href="https://www.facebook.com/Natalia-Szkamruk-Makeup-104410168042482"target="_blank">
+                         <i class="icon-facebook-rect"></i>
+                     </a>
+                 </div>
+                
+                <div id="instagram">
+                     <a href="https://www.instagram.com/szkami.makeup/"target="_blank">
+                         <i class="icon-instagram"></i>
+                     </a>
+                </div>
+                
+                <div id="youtube" >
+                     <a href="https://www.youtube.com/channel/UC2k7_nbC4WwOK11-qlWsCtw"target="_blank">
+                         <i class="icon-youtube"></i>
+                     </a>
+                 </div>
+                                                                     <div class="clear"></div>
+             </div>
+         </div>
+         <footer>
+             <div id="log">
+                 <a id="linn" href="https://101future.com"><img src="photos/logo.png"></img></a>
+             </div>
+         </footer>
+</div>
+
+
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+if (!event.target.matches('.icon-menu')) {
+var dropdowns = document.getElementsByClassName("dropdown-content");
+var i;
+for (i = 0; i < dropdowns.length; i++) {
+var openDropdown = dropdowns[i];
+if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</body>

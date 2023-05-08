@@ -1,0 +1,81 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXFileReference section */
+		4EBF54F5286F194100A00E2B /* index.HTML */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.HTML; sourceTree = "<group>"; };
+		4EBF54F8287DA17A00A00E2B /* .htaccess.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = .htaccess.md; sourceTree = "<group>"; };
+		4EBF55002881F5B100A00E2B /* projekty.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = projekty.html; sourceTree = "<group>"; };
+		4EBF55012881F65300A00E2B /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4EBF54EE286F192B00A00E2B = {
+			isa = PBXGroup;
+			children = (
+				4EBF54F5286F194100A00E2B /* index.HTML */,
+				4EBF55002881F5B100A00E2B /* projekty.html */,
+				4EBF55012881F65300A00E2B /* style.css */,
+				4EBF55012881F65300A00E2B /* style.css */,
+				4EBF54F8287DA17A00A00E2B /* .htaccess.md */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		4EBF54EF286F192B00A00E2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = 4EBF54F2286F192B00A00E2B /* Build configuration list for PBXProject "portfolio" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EBF54EE286F192B00A00E2B;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		4EBF54F3286F192B00A00E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4EBF54F4286F192B00A00E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EBF54F2286F192B00A00E2B /* Build configuration list for PBXProject "portfolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EBF54F3286F192B00A00E2B /* Debug */,
+				4EBF54F4286F192B00A00E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EBF54EF286F192B00A00E2B /* Project object */;
+}
